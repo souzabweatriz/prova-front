@@ -1,6 +1,6 @@
 # PROVA - Front-End De Professores e Disciplinas
 
-Este projeto tem como objetivo criar um Front para a API de gerenciamento de **Professores** e **Disciplinas**.f
+Este projeto tem como objetivo criar um Front para a API de gerenciamento de **Professores** e **Disciplinas**
 
 
 ## 🚀 Como iniciar o projeto Next.js (Windows CMD)
