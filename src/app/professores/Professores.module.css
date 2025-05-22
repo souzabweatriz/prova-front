@@ -4,10 +4,12 @@
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    align-content: center;
 }
 
 .card {
     width: 220px;
+    height: 19rem;
     border: 1px solid #ddd;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -19,4 +21,33 @@
     background-color: antiquewhite;
     width: auto;
     height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    width: auto;
+    height: 100vh;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(110, 170, 170);
+    width: 80rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+}
+
+.title{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.pagination{
+    align-items: flex-end;
+    display: flex;
+    margin-top: 5rem;
 }

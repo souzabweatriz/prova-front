@@ -7,10 +7,12 @@
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    align-content: center;
 }
 
 .Professores_card__aZkAu {
     width: 220px;
+    height: 19rem;
     border: 1px solid #ddd;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -22,4 +24,33 @@
     background-color: antiquewhite;
     width: auto;
     height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Professores_main__pGvj7{
+    display: flex;
+    width: auto;
+    height: 100vh;
+}
+
+.Professores_container__q_BCd{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(110, 170, 170);
+    width: 80rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+}
+
+.Professores_title__0qR_3{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.Professores_pagination__v0Dnq{
+    align-items: flex-end;
+    display: flex;
+    margin-top: 5rem;
 }

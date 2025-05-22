@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 PROVA - Front-End De Professores e Disciplinas
 
-## Getting Started
+Este projeto tem como objetivo criar um Front para a API de gerenciamento de **Professores** e **Disciplinas**.f
 
-First, run the development server:
+---
+
+## ✅ ESSENCIAIS
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install 
+```
+``` bash
+npm install antd
+```
+``` bash
+npm install react-toastify
+```
+``` bash
+npm install axios
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 middleware.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```json
+import { NextResponse } from "next/server";
 
-## Learn More
+export const config = {
+    matcher: "/",
+};
 
-To learn more about Next.js, take a look at the following resources:
+export default function middleware(req) {
+    return NextResponse.redirect(new URL("/<nome da pasta da rota>", req.url));
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Estrutura básica sugerida
 
-## Deploy on Vercel
+```
+📁 src/
+├── config/
+│   └── apiKey.js
+│   └── database.js
+│   └── upload.js
+├── controllers/
+│   └── disciplinaController.js
+│   └── professoresController.js
+│   └── reportController.js
+├── models/
+│   └── disciplinaModel.js
+│   └── professorModel.js
+├── routes/
+│   └── disciplinaRoutes.js
+│   └── professorRoutes.js
+│   └── reportRoutes.js
+├── uploads/
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Pacotes instalados
+
+| Pacote        | Função                          |
+|---------------|----------------------------------|
+| express       | Servidor web                    |
+| cors          | Permite requisições externas    |
+| dotenv        | Variáveis de ambiente           |
+| pg            | Conexão com PostgreSQL          |
+| multer        | Upload de imagens               |
+| pdfkit        | Geração de arquivos PDF         |
+| nodemon       | Atualização automática em dev   |
+
+---
+
+## 📝 Comandos úteis
+
+```
+# Rodar servidor em desenvolvimento
+npm run dev
+
+# Rodar servidor em produção
+npm start
+```
+
+---
+
+## 🔗 Links úteis para consulta
+
+- 📄 [Documentação 1 - Criando uma API ](https://docs.google.com/document/d/1sWgFyhgW30Ee7-I3PVAqH4AF62iqahjo29cIVjO-dng/edit?tab=t.0)
+- 📄 [Documentação 2 - Upload de Arquivos ](https://docs.google.com/document/d/1sWgFyhgW30Ee7-I3PVAqH4AF62iqahjo29cIVjO-dng/edit?tab=t.0)
+- 📄 [Documentação 3 - API keyMiddleware](https://docs.google.com/document/d/1SiCyH8llsDeoI6ayJdi4dUKMgQWvg_4ODZRykw-OjAM/edit?tab=t.0)
+- 📄 [Documentação 4 - Outro Repositório de Exemplo](https://github.com/souzabweatriz/Back-end-cosmeticos/blob/main/src/routes/reportRoutes.js)
+
