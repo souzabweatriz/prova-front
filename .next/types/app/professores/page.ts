@@ -1,4 +1,4 @@
-// File: C:\Users\Aluno DS\Desktop\prova-frontend\prova-front\src\app\professores\page.jsx
+// File: C:\Users\Aluno DS\Desktop\prova-front\prova-front-1\src\app\professores\page.jsx
 import * as entry from '../../../../src/app/professores/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

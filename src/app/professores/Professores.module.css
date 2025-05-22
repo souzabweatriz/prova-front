@@ -18,7 +18,7 @@
 
 .main{
     display: flex;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     width: auto;
     height: 100vh;
     justify-content: center;
@@ -38,7 +38,7 @@
     background-color: rgb(110, 170, 170);
     width: 80rem;
     height: 75rem;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
 }
 
 .title{
