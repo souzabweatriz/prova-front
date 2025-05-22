@@ -84,7 +84,7 @@ export default function Professores() {
                             hoverable
                             onClick={() => openModal(professor)}
                             cover={ <Image
-                                src={professor.uploads ? `/uploads/${professor.uploads}` : "/images/220.svg"}
+                                src={professor.uploads ? `/images/${professor.uploads}` : "/images/220.svg"}
                                 alt={`Foto de ${professor.nome}`}
                                 width={220}
                                 height={220}

@@ -37,17 +37,17 @@
     display: flex;
     background-color: rgb(110, 170, 170);
     width: 80rem;
-    height: 30rem;
+    height: 75rem;
     border-radius: 0.5rem;
 }
 
 .title{
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .pagination{
     align-items: flex-end;
     display: flex;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
