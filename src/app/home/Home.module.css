@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #9dbcbc;
+}
+
+.container{
+    display: flex;
+    width: 60rem;
+    height:  30rem;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 2px 3px 8px #253342;
+}
+
+.aside{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    background-color: #aeced242;
+}
+
+.image{
+    margin: 1rem ;
+}
+
+.infos{
+    margin: 1rem;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.name{
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.button{
+    display: flex;
+}

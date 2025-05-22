@@ -1,0 +1,69 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/home/Home.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Home_main__WNNgP{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #9dbcbc;
+}
+
+.Home_container__nNIYv{
+    display: flex;
+    width: 60rem;
+    height:  30rem;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 2px 3px 8px #253342;
+}
+
+.Home_aside__kNi2v{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    background-color: #aeced242;
+}
+
+.Home_image__Olx8U{
+    margin: 1rem ;
+}
+
+.Home_infos__iANAN{
+    margin: 1rem;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.Home_name__Yt8jf{
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.Home_button__NpaWU{
+    display: flex;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/Button.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__DgYPU{
+    display: flex;
+    width: 15rem;
+    border-radius: 2rem;
+    border: 0;
+    height: 3rem;
+    background-color: #93cac6;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
