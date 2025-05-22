@@ -1,6 +1,34 @@
-# 🎨 PROVA - Front-End De Professores e Disciplinas
+# PROVA - Front-End De Professores e Disciplinas
 
 Este projeto tem como objetivo criar um Front para a API de gerenciamento de **Professores** e **Disciplinas**.f
+
+
+## 🚀 Como iniciar o projeto Next.js (Windows CMD)
+### 📦 Criando o projeto
+
+```bash
+npx create-next-app@latest
+```
+
+### 💬 Responder perguntas 
+
+#### Would you like to use TypeScript? ... No / Yes
+#### Would you like to use ESLint? ... No / Yes
+#### Would you like to use Tailwind CSS? ... No / Yes
+#### Would you like your code inside a src/ directory? ... No / Yes
+#### Would you like to use App Router? (recommended) ... No / Yes
+#### Would you like to use Turbopack for next dev? ... No / Yes
+#### Would you like to customize the import alias (@/* by default)? ... No / Yes
+
+```bash
+cd my-app
+```
+```bash
+code .
+```
+```bash
+npm run dev
+```
 
 ---
 
@@ -40,23 +68,25 @@ export default function middleware(req) {
 ## 📁 Estrutura básica sugerida
 
 ```
-📁 src/
-├── config/
-│   └── apiKey.js
-│   └── database.js
-│   └── upload.js
-├── controllers/
-│   └── disciplinaController.js
-│   └── professoresController.js
-│   └── reportController.js
-├── models/
-│   └── disciplinaModel.js
-│   └── professorModel.js
-├── routes/
-│   └── disciplinaRoutes.js
-│   └── professorRoutes.js
-│   └── reportRoutes.js
-├── uploads/
+.next/
+public/
+├── icons/
+├── images/
+├── media/
+src/
+├── app/
+├── components/
+├── styles/
+middleware.js
+.env.local
+.gitignore
+eslint.config.mjs
+jsconfig.json
+next.config.mjs
+package-lock.json
+package.json
+README.md
+
 ```
 
 ---
@@ -64,14 +94,11 @@ export default function middleware(req) {
 ## 🌐 Pacotes instalados
 
 | Pacote        | Função                          |
-|---------------|----------------------------------|
-| express       | Servidor web                    |
-| cors          | Permite requisições externas    |
-| dotenv        | Variáveis de ambiente           |
-| pg            | Conexão com PostgreSQL          |
-| multer        | Upload de imagens               |
-| pdfkit        | Geração de arquivos PDF         |
-| nodemon       | Atualização automática em dev   |
+|---------------|---------------------------------|
+| antd          | Biblioteca de componentes UI    |
+| react-toastify| Permite requisições externas    |
+| axios         | Variáveis de ambiente           |
+
 
 ---
 
@@ -89,8 +116,6 @@ npm start
 
 ## 🔗 Links úteis para consulta
 
-- 📄 [Documentação 1 - Criando uma API ](https://docs.google.com/document/d/1sWgFyhgW30Ee7-I3PVAqH4AF62iqahjo29cIVjO-dng/edit?tab=t.0)
-- 📄 [Documentação 2 - Upload de Arquivos ](https://docs.google.com/document/d/1sWgFyhgW30Ee7-I3PVAqH4AF62iqahjo29cIVjO-dng/edit?tab=t.0)
-- 📄 [Documentação 3 - API keyMiddleware](https://docs.google.com/document/d/1SiCyH8llsDeoI6ayJdi4dUKMgQWvg_4ODZRykw-OjAM/edit?tab=t.0)
-- 📄 [Documentação 4 - Outro Repositório de Exemplo](https://github.com/souzabweatriz/Back-end-cosmeticos/blob/main/src/routes/reportRoutes.js)
+- 📄 [Documentação 1 - Cheat Sheet ](https://docs.google.com/document/d/18cXgKxNFGcFshRfH6-cpQEVJ4z7wuY-5Jr1pZFiuhm4/edit?tab=t.0)
+
 
